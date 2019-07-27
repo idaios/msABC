@@ -1,0 +1,1 @@
+./msABC 12 10 -t 10 -r -U 10 20 1000 -I 2 7 5 0.1 -em 0.1 1 2 -U 0.1 0.5 -eN -U 0.01 0.02 0.3 --frag-begin --finp fragments3.txt --frag-end --verbose -seeds 1 2 3 

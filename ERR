@@ -1,0 +1,79 @@
+ms.c: In function ‘initialize_global’:
+ms.c:219:9: warning: unused variable ‘j’ [-Wunused-variable]
+ms.c: In function ‘main’:
+ms.c:1500:4: warning: implicit declaration of function ‘seg_sites’ [-Wimplicit-function-declaration]
+ms.c:1825:4: warning: implicit declaration of function ‘pairwiseFstcalculations’ [-Wimplicit-function-declaration]
+ms.c:2092:5: warning: implicit declaration of function ‘dist_argcheck’ [-Wimplicit-function-declaration]
+ms.c:460:8: warning: unused variable ‘maxder’ [-Wunused-variable]
+ms.c:439:7: warning: unused variable ‘printdata’ [-Wunused-variable]
+ms.c: In function ‘gensam’:
+ms.c:4566:7: warning: implicit declaration of function ‘poisso’ [-Wimplicit-function-declaration]
+ms.c:4571:2: warning: implicit declaration of function ‘biggerlist’ [-Wimplicit-function-declaration]
+ms.c:4575:7: warning: implicit declaration of function ‘locate’ [-Wimplicit-function-declaration]
+ms.c:4603:7: warning: implicit declaration of function ‘mnmial’ [-Wimplicit-function-declaration]
+ms.c:4488:23: warning: unused variable ‘j’ [-Wunused-variable]
+ms.c:4488:14: warning: unused variable ‘h’ [-Wunused-variable]
+ms.c: In function ‘reinitialize’:
+ms.c:4691:9: warning: unused variable ‘j’ [-Wunused-variable]
+ms.c: In function ‘locate’:
+ms.c:4753:2: warning: implicit declaration of function ‘ordran’ [-Wimplicit-function-declaration]
+ms.c: In function ‘getpars’:
+ms.c:4794:4: warning: implicit declaration of function ‘usage1’ [-Wimplicit-function-declaration]
+ms.c:4798:4: warning: implicit declaration of function ‘usage2’ [-Wimplicit-function-declaration]
+ms.c:4802:4: warning: implicit declaration of function ‘usage3’ [-Wimplicit-function-declaration]
+ms.c:4812:7: warning: implicit declaration of function ‘usage’ [-Wimplicit-function-declaration]
+ms.c:5418:8: warning: implicit declaration of function ‘warning’ [-Wimplicit-function-declaration]
+ms.c:4765:12: warning: variable ‘carg’ set but not used [-Wunused-but-set-variable]
+ms.c: In function ‘getobservations’:
+ms.c:5869:21: warning: unused variable ‘limy’ [-Wunused-variable]
+ms.c:5869:7: warning: unused variable ‘limx’ [-Wunused-variable]
+ms.c: In function ‘getoptions’:
+ms.c:6070:7: warning: unused variable ‘n’ [-Wunused-variable]
+ms.c:6069:8: warning: unused variable ‘line’ [-Wunused-variable]
+ms.c: In function ‘constructfragpars’:
+ms.c:6222:35: error: ‘MAX_RAND’ undeclared (first use in this function)
+ms.c:6222:35: note: each undeclared identifier is reported only once for each function it appears in
+ms.c:6216:12: warning: unused variable ‘j’ [-Wunused-variable]
+ms.c: In function ‘dist_argcheck’:
+ms.c:6414:7: warning: unused variable ‘is_distribution’ [-Wunused-variable]
+ms.c: In function ‘make_gametes’:
+ms.c:6641:6: warning: implicit declaration of function ‘tdesn’ [-Wimplicit-function-declaration]
+ms.c: In function ‘prtree’:
+ms.c:6686:9: warning: unused variable ‘t’ [-Wunused-variable]
+ms.c: In function ‘ordran’:
+ms.c:6798:2: warning: implicit declaration of function ‘ranvec’ [-Wimplicit-function-declaration]
+ms.c:6799:2: warning: implicit declaration of function ‘order’ [-Wimplicit-function-declaration]
+ms.c:6800:2: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
+ms.c: In function ‘ranvec’:
+ms.c:6853:2: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
+ms.c: In function ‘uniform_ab’:
+ms.c:6910:7: warning: unused variable ‘i’ [-Wunused-variable]
+ms.c: In function ‘get_timeevents’:
+ms.c:7207:9: warning: unused variable ‘pf’ [-Wunused-variable]
+ms.c:7197:22: warning: unused variable ‘palpha’ [-Wunused-variable]
+ms.c:7197:15: warning: unused variable ‘psize’ [-Wunused-variable]
+ms.c:7197:10: warning: unused variable ‘mij’ [-Wunused-variable]
+ms.c:7196:10: warning: unused variable ‘migr’ [-Wunused-variable]
+ms.c:7195:40: warning: unused variable ‘argstart’ [-Wunused-variable]
+ms.c:7195:28: warning: unused variable ‘sum’ [-Wunused-variable]
+ms.c:7195:23: warning: unused variable ‘j’ [-Wunused-variable]
+ms.c:7195:12: warning: variable ‘carg’ set but not used [-Wunused-but-set-variable]
+ms.c: In function ‘order’:
+ms.c:6839:1: warning: control reaches end of non-void function [-Wreturn-type]
+ms.c: In function ‘make_gametes’:
+ms.c:6645:1: warning: control reaches end of non-void function [-Wreturn-type]
+ms.c: In function ‘usage3’:
+ms.c:6586:1: warning: control reaches end of non-void function [-Wreturn-type]
+ms.c: In function ‘usage2’:
+ms.c:6577:1: warning: control reaches end of non-void function [-Wreturn-type]
+ms.c: In function ‘usage1’:
+ms.c:6556:1: warning: control reaches end of non-void function [-Wreturn-type]
+ms.c: In function ‘Fst’:
+ms.c:5864:1: warning: control reaches end of non-void function [-Wreturn-type]
+ms.c: In function ‘locate’:
+ms.c:4757:1: warning: control reaches end of non-void function [-Wreturn-type]
+ms.c: In function ‘biggerlist’:
+ms.c:4646:1: warning: control reaches end of non-void function [-Wreturn-type]
+ms.c: In function ‘main’:
+ms.c:4479:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [ms.o] Error 1

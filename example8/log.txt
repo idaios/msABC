@@ -1,0 +1,1 @@
+./msABC 48 10 -I 2 24 24 -U 0.5 0.6 -t 10 -r 10 1000 -en -U 0.01 0.02 2 -U 0.1 0.2 --missing missing.list --frag-begin --finp fragments4.txt --frag-end --verbose -seeds 1 2 3 --options options.txt 
